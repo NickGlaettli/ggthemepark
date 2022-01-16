@@ -1,0 +1,16 @@
+Package: ggthemepark
+Type: Package
+Title: Additional themes for ggplot2
+Version: 0.1.0
+Author: Nick Glaettli
+Maintainer: Nick Glaettli <nick.glaettli@gmail.com>
+Description: the ggthemepark package adds new themes for ggplot2 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  tidyverse
+RoxygenNote: 7.1.2
+URL: https://github.com/NickGlaettli/ggthemepark
+BugReports: https://github.com/NickGlaettli/ggthemepark/issues
+
