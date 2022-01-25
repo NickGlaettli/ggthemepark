@@ -18,6 +18,11 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
+```{r, include=FALSE}
+library(tidyverse)
+library(ggthemepark)
+```
+
 The ggthemepark package provides many new themes for ggplot2.
 
 ## Installation
@@ -28,3 +33,30 @@ You can install löatest version of ggthemepark from [GitHub](https://github.com
 # install.packages("devtools")
 devtools::install_github("NickGlaettli/ggthemepark")
 ```
+
+## Usage
+The themes are used as any `ggplot` theme. The themes `simple` and `lightblue` provide the possibility to add a line along th y-axis by calling `yline = TRUE`.
+
+```{r, fig.height = 2, fig.width = 3, fig.align = "center"}
+#Theme simple
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+  geom_point()+
+  theme_simple(yline = TRUE)
+
+#Theme lightblue
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+  geom_point()+
+  theme_lightblue()
+
+#Theme bw2
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+  geom_point()+
+  theme_bw2()
+
+#Theme owid
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+  geom_point()+
+  theme_owid()
+```
+
+
