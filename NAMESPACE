@@ -2,4 +2,5 @@
 
 export(theme_bw2)
 export(theme_lightblue)
+export(theme_owid)
 export(theme_simple)
