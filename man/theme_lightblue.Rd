@@ -4,22 +4,14 @@
 \alias{theme_lightblue}
 \title{theme_lightblue}
 \usage{
-theme_lightblue(
-  base_size = 13,
-  base_family = "serif",
-  base_line_size = base_size/24,
-  base_rect_size = base_size/24,
-  border = FALSE
-)
+theme_lightblue(yline = F)
 }
 \arguments{
-\item{border}{}
+\item{yline}{}
 }
 \value{
 
 }
 \description{
-The theme_lightblue function provides a lightblueish background for your ggplot2 plots. Similar in
-style to the theme_professional theme but with a different background and font.
-For scatterplots, please use the theme_lightblue_point function.
+theme_lightblue
 }
