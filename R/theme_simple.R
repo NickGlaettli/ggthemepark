@@ -18,9 +18,8 @@ theme_simple <- function(yline = F) {
       theme(
 
       #Grid
-      panel.grid.minor.x = element_blank(),
-      panel.grid.major.x = element_blank(),
-      panel.grid.minor.y = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.x = element_blank(),,
 
       #Labs
       legend.position = "bottom",
