@@ -56,6 +56,7 @@ theme_lightblue <- function(yline = F) {
       #Labs
       legend.position = "right",
       legend.background = element_rect(color = "black", fill = NA),
+      plot.caption = element_text(hjust = 0),
 
       plot.title= element_text(face="bold",family="serif", size = 15, hjust = 0.5, vjust = 4),
       plot.subtitle = element_text(family="serif", size= 13, hjust = 0.5, vjust = 3),

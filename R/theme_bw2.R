@@ -22,6 +22,7 @@ theme_bw2 <- function() {
 
         #Labs
         legend.background = element_rect(color = "black", fill = NA, size= 0.3),
+        plot.caption = element_text(hjust = 0),
 
         #Margin
         plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm")
