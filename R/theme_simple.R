@@ -1,11 +1,15 @@
 #' @title theme_simple
 #'
-#' @param yline If True, y line added
+#' @param yline Add y line by setting to TRUE
 #'
 #' @return
 #' @export
 #'
 #' @examples
+#' library(ggplot2)
+#' ggplot2:: ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+#'  geom_point()+
+#'  theme_simple()
 #'
 theme_simple <- function(yline = F) {
 

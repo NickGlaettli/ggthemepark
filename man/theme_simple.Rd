@@ -7,7 +7,7 @@
 theme_simple(yline = F)
 }
 \arguments{
-\item{yline}{If True, y line added}
+\item{yline}{Add y line by setting to TRUE}
 }
 \value{
 
@@ -16,5 +16,9 @@ theme_simple(yline = F)
 theme_simple
 }
 \examples{
+library(ggplot2)
+ggplot2:: ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+ geom_point()+
+ theme_simple()
 
 }

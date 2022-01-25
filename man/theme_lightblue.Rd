@@ -7,11 +7,18 @@
 theme_lightblue(yline = F)
 }
 \arguments{
-\item{yline}{}
+\item{yline}{Add y line by setting to TRUE}
 }
 \value{
 
 }
 \description{
 theme_lightblue
+}
+\examples{
+library(ggplot2)
+ggplot2:: ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+ geom_point()+
+ theme_lightblue()
+
 }

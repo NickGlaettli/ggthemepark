@@ -5,6 +5,10 @@
 #' @export
 #'
 #' @examples
+#' library(ggplot2)
+#' ggplot2:: ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+#'  geom_point()+
+#'  theme_bw2()
 #'
 theme_bw2 <- function() {
 

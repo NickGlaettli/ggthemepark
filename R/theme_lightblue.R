@@ -1,11 +1,16 @@
 #' @title theme_lightblue
 #'
-#' @param yline
+#' @param yline Add y line by setting to TRUE
 #'
 #' @return
 #' @export
 #'
 #' @examples
+#' library(ggplot2)
+#' ggplot2:: ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+#'  geom_point()+
+#'  theme_lightblue()
+#'
 theme_lightblue <- function(yline = F) {
 
   ggplot2::theme_minimal(
