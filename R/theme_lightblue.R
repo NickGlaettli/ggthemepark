@@ -1,4 +1,3 @@
-
 #' @title theme_lightblue
 #'
 #' @param yline
@@ -18,7 +17,8 @@ theme_lightblue <- function(yline = F) {
 
       #Grid
       panel.grid.minor.x = element_blank(),
-      panel.grid.major.x = element_blank(),
+      panel.grid.major.x = element_line(size = 0.2),
+      panel.grid.major.y = element_line(color= "gray83"),
       panel.grid.minor.y = element_blank(),
 
       #Labs
@@ -49,7 +49,8 @@ theme_lightblue <- function(yline = F) {
 
       #Grid
       panel.grid.minor.x = element_blank(),
-      panel.grid.major.x = element_blank(),
+      panel.grid.major.x = element_line(size = 0.2),
+      panel.grid.major.y = element_line(color= "gray83"),
       panel.grid.minor.y = element_blank(),
 
       #Labs

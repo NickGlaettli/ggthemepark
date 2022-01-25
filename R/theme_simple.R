@@ -1,4 +1,3 @@
-
 #' @title theme_simple
 #'
 #' @param yline If True, y line added
