@@ -1,7 +1,7 @@
 Package: ggthemepark
 Type: Package
 Title: Additional themes for ggplot2
-Version: 0.1.0
+Version: 0.1.1
 Author: Nick Glaettli
 Maintainer: Nick Glaettli <nick.glaettli@gmail.com>
 Description: The ggthemepark package provides additional themes for ggplot2.
